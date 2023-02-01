@@ -61,8 +61,9 @@
 
 <section id="importantForm">
     <h3>This is the most important form in the world! <s>not really</s></h3>
-    <form action="">
+    <form action="https://preeminent-tapioca-032369.netlify.app/experiments.html", method="get">
         <fieldset>
+            <legend>The Most Legendary of Forms</legend>
             <label for="fish">Choose the best fish</label>
             <select name="fish" id="fish">
                 <optgroup label="Swim, swim, swim!">
@@ -74,7 +75,18 @@
                     <option value="twoFish">Two Fish</option>
                     <option value="shark">Shark</option>
                 </optgroup>
-        </select>
+            </select>
+            <br><br>
+            <label for="joke">Answer the Joke:</label>
+            <textarea id="joke" name="joke" rows="5" cols="33">Why did the chicken cross the road?</textarea>
+            <br><br>
+            <label for="userName">User Name:</label>
+            <input type="text" id="userName" name="userName">
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass">
+            <br><br>
+            <input type="submit" value="Submit">
         </fieldset>
     </form>
 </section>
